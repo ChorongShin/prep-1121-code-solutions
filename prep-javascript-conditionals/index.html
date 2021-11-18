@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Conditionals</title>
+  </head>
+
+  <body>
+    <script>
+      var age = 31;
+      if (age < 18) {
+        result = 'A child';
+      } else {
+        result = 'An adult';
+      }
+      console.log(result);
+
+      var student1Score = 99;
+      if (student1Score >= 70) {
+        score = 'Congrats you received a passing grade!';
+      } else {
+        score = 'Oh no you failed!';
+      }
+      console.log(score);
+
+      var student2Score = 100;
+      if (student2Score < 60) {
+        grade = 'F';
+      } else if (student2Score < 70) {
+        grade = 'D';
+      } else if (student2Score < 80) {
+        grade = 'C';
+      } else if (student2Score < 90) {
+        grade = 'B';
+      } else if (student2Score < 100) {
+        grade = 'A';
+      } else {
+        grade = 'A++';
+      }
+      console.log(grade);
+
+      var season = 'summer';
+      if (season === 'summer') {
+        weather = "it's hot today";
+      } else if (season === 'spring') {
+        weather = 'the flowers are blooming';
+      } else if (season === 'autumn') {
+        weather = 'the leaves are changing colors';
+      } else if (season === 'winter') {
+        weather = "it's cold today";
+      } else {
+        weather = 'please enter a valid season';
+      }
+      console.log(season);
+
+      var dayOfTheWeek = 'monday';
+      if (dayOfTheWeek === 'saturday' || dayOfTheWeek === 'sunday') {
+        phrase = 'have a good weekend!';
+      } else {
+        phrase = 'Its a weekday!';
+      }
+      console.log(phrase);
+    </script>
+  </body>
+</html>
